@@ -1,0 +1,77 @@
+.header {
+    position: fixed;
+    float: left;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 30%;
+  }
+
+  .menu-button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 30px 30px 30px 30px ;
+    cursor: pointer;
+    font-size: 30px;
+    line-height : 40px ;
+    text-decoration: none ;
+  }
+
+  .menu-dropdown {
+    display: none;
+    position: absolute;
+    top: 65%;
+    left: 8px;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  .menu-dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-dropdown li a {
+    display: block;
+    color: #000;
+    padding: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .menu-dropdown li a:hover {
+    background-color: #DCDCDC;
+    color: black;
+  }
+
+  .header:hover .menu-dropdown {
+    display:  block;
+  }
+
+  .language-menu {
+      float: right;
+      margin-top : 5px ;
+    }
+  
+/* Equipe titre */ 
+.title {
+    text-align: center;
+    bottom: auto;
+}
+.qui{
+    text-align: start;
+}
+
+
+    
+
+  
+
+
+
+
+
+
+

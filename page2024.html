@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Collection Al Thani</title>
+	<link href="css/page2024.css" type="text/css" rel="stylesheet" />
+	<title> Collection Al Thani </title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="js/page2024.js"></script>
+  <script src="https://kit.fontawesome.com/56b8d626b9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div>
+<header>
+	<div class="header">
+		<a class="menu-btn" href="#">Menu</a>
+		<div class="menu-dropdown">
+		  <ul>
+			<li><a href="accueil.html">Accueil</a></li>
+			<li><a href="page2024.html">Collection Al Thani</a></li>
+			<li><a href="equipe.html">Équipe</a></li>
+		  </ul>
+		</div>
+	 </div>
+</header>
+
+<div class="language-menu">
+	<button id="language-btn"><i class="fas fa-language"></i> Langues</button>
+	<select id="language-select" onchange="changeLanguage()">
+	  <option value="fr">Français</option>
+	  <option value="en">Anglais</option>
+	</select>
+</div>
+</div>
+
+	<main>
+		<h1 class="title">Collection Al Thani</h1>
+
+		<div class="photo-section">
+		<h2>Photos de l'exposition</h2>
+			<div class="slick-carousel">
+			  <div><img src="src/IMG_1324.jpg"></div>
+			  <div><img src="src/IMG_1328.jpg"></div>
+			  <div><img src="src/IMG_1316.jpg"></div>
+			  <div><img src="src/IMG_1322.jpg"></div>
+			  
+			</div>
+		</div>
+
+<div class="partie-droite">
+<div class="recap-section">
+	<h2> Résumé de l'exposition </h2>
+	<br>
+	<p>..
+		
+		
+		
+	</p>
+  </div>
+</div>
+
+	</main>
+
+  <div class="interview-section">
+	<h2 class="res_qes">Interview</h2>
+	<p class="questions"> <audio src="src/AUDIO-2024-05-26-20-42-11.m4a"></audio>
+		<a href="src/AUDIO-2024-05-26-20-42-11.m4a">Cliquez ici</a>
+
+	</p>
+
+
+
+	  <footer>
+		<div class="footer-left">
+		  <h3><i class="fa-solid fa-location-dot"></i> Adresse</h3>
+		  <p>Hotel de la Marine<br>
+			 2 pl Concorde<br>
+			 75008 Paris<br>
+			 <a href="https://www.bing.com/search?q=hotel+de+la+marine+paris&pc=GD01&form=GDAVST&ptag=3604">Google Maps</a></p>
+		</div>
+		<div class="footer-medium">
+			<h3>Réseaux sociaux</h3>
+			<p><a href="https://www.instagram.com/hoteldelamarine/"><span class="instagram"><i class="fa-brands fa-instagram"></i></span> Instagram</a><br>
+			   <a href="https://www.facebook.com/hoteldelamarineparis/"><span class="facebook"><i class="fa-brands fa-facebook"></i></span> Facebook</a><br>
+			 <a href="https://www.youtube.com/watch?v=YJCA0G-YeCA&pp=ygUSaG90ZWwgZGUgbGEgbWFyaW5l"><span class="youtube"><i class="fa-brands fa-youtube"></i></span> Youtube</a><br>
+		   </div>
+		<div class="footer-right">
+		  <ul>
+			<li><a href="equipe.html">A propos <i class="far fa-user"></i></a></li>
+			<li><button id="myBtn">Nous contacter <i class="fa-regular fa-envelope"></i></button>
+			<div id="myModal" class="modal">
+			  <div class="modal-content">
+				<span class="close">&times;</span>
+				<form>
+				  <label for="nom">Nom :</label>
+			  <input type="text" id="nom" name="nom" required><br>
+	  
+			  <label for="prenom">Prénom :</label>
+			  <input type="text" id="prenom" name="prenom" required><br>
+	  
+			  <label for="email">Adresse email :</label>
+			  <input type="email" id="email" name="email" required><br>
+	  
+			  <label for="commentaire">Commentaire :</label>
+			  <textarea id="commentaire" name="commentaire" required></textarea><br>
+	  
+			  <input id='envoyer' type="submit" value="Envoyer">
+				</form>
+			  </div>
+			</div>
+		  </li>
+		  </ul>
+		</div>
+	  </footer>
+</body>
+</html>
